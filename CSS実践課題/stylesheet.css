@@ -1,0 +1,136 @@
+@charset "UTF-8";
+*{
+    padding:0px;
+    margin:0px;
+}
+
+header{
+    margin-bottom:0px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    background-color:#888;
+    padding:20px 70px;
+    list-style: none;
+}
+
+nav ul a{
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+}
+
+.top{
+    background: url(img-1/img/top.png) no-repeat center;
+    background-size: 100%;
+    height:600px;
+    margin-top:0px;
+
+}
+h1 {
+    font-size: 30px;
+    color: #fff;
+    background-color: #007;
+    padding: 20px 50px;
+    float: right;
+    margin: 275px;
+  }
+
+.service{
+    width:80%;
+    margin:100px auto;
+}
+.section-title{
+    font-size:40px;
+    padding:25px;
+    text-align: center;
+    color:#75d5ff;
+    vertical-align: middle;
+}
+.contents1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img {
+    width: 80%;
+    height: auto;
+  }
+  .discription h3 {
+    color: #75d5ff;
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  
+  .discription p {
+    font-size: 15px;
+    color: #555;
+  }
+.contents2{
+    margin: 0 auto;
+    /* Max-widthがないと中央ニ反映されない理由 */
+    max-width:450px;
+}
+.contents2 p{
+    line-height: 2.5;
+}
+
+.PRICE table {
+    border: solid #75d5ff 2px;
+    width: 70%;
+    margin:0 auto;
+    margin-bottom:40px;
+    text-align: center;
+  }
+.PRICE table td{
+    border:solid 2px #75d5ff;
+    padding:10px;
+}
+.PRICE table th{
+    border:solid 2px #75d5ff;
+    padding:10px;
+}
+
+.contact{
+    background-color: rgb(241,241,241);
+}
+
+.form{
+    width:70%;
+    margin:0 auto;
+    line-height:4;
+    /* line-height:4;を入れたときにずれてしまう */
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+  }
+input, textarea {
+    box-sizing: border-box;
+    border: solid #ddd 1px;
+    width: 65%;
+    margin-bottom: 6px;
+  }
+input,textarea {
+    padding: 6px;
+  }
+textarea {
+    vertical-align: top;
+    height: 200px;
+  }
+
+  .button_submit {
+    text-align: center;
+  }
+  
+.button {
+   padding: 10px 50px;
+   background-color: #555;
+   margin: 50px 0;
+   font-weight: bold;
+   border: none;
+   color: #fff;
+}
